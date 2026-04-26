@@ -1,0 +1,38 @@
+@"
+# Data files (CRITICAL - never commit data!)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+!requirements.txt
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Reports
+*.pdf
+*.html
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
